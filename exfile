@@ -1,0 +1,11 @@
+ex :    ex.o list.o
+        cc -o A2 ex.o list.o
+
+ex.o :  ex.c list.h
+        cc -c ex.c
+
+list.o : list.c list.h
+        cc -c list.c 
+
+clean :
+        rm ex *.o
