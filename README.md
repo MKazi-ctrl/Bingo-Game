@@ -1,8 +1,8 @@
-A2 Bingo Game
+# A2 Bingo Game
 
 This project is a program that simulates a Bingo game. The game is played on a 5x5 grid, where each cell contains a number. The objective of the game is to mark specific patterns on the grid to win.
 
-Features
+## Features
 The program reads a list of 25 integers from a file, representing the Bingo card.
 The user is prompted to enter a seed value and a Bingo card file when running the program.
 The program verifies the format and integrity of the input data.
@@ -10,19 +10,20 @@ The program generates a random sequence of numbers and presents them as "calls."
 If a called number is present on the Bingo card, it is marked.
 The program continuously updates the Bingo card and checks for winning conditions.
 If a winning pattern is achieved, the program declares the user as the winner and exits.
-Files
-list.c and list.h:
+## Files
+### list.c and list.h:
 These files contain the implementation and declaration of functions related to managing a list data structure used in the program.
 The list data structure stores the called numbers and provides operations like adding items, checking for duplicates, and printing the list.
-m.c:
+### A2.c:
 This file contains the main program logic for the Bingo game.
 It includes functions for verifying inputs, printing the Bingo card, checking for winning conditions, and marking called numbers on the card.
 The main function initializes the game, reads user inputs, generates random calls, updates the Bingo card, and checks for winning conditions in a loop.
-makefile:
+### makefile:
 This file provides rules for compiling the program using the cc compiler.
 It includes rules for compiling the source files and linking them to create the final executable (A2).
 The clean rule is provided to remove the compiled object files and the executable.
-How to Run
+## How to Run
+
 To run the Bingo game program, follow these steps:
 
 Ensure you have a C compiler installed on your system (e.g., GCC).
@@ -39,7 +40,5 @@ Feel free to modify the program or experiment with different Bingo card files to
 Note: Make sure to replace <seed> and <cardFile> with actual values when running the program.
 
 Enjoy playing the Bingo game!
-
-Please note that this explanation assumes the provided code functions correctly and accurately represents the intended Bingo game.
 
 
