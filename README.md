@@ -22,6 +22,20 @@ The main function initializes the game, reads user inputs, generates random call
 This file provides rules for compiling the program using the cc compiler.
 It includes rules for compiling the source files and linking them to create the final executable (A2).
 The clean rule is provided to remove the compiled object files and the executable.
+
+#### To make the executory file "A2", do
+
+1.) make -f A2Makefile
+
+A2, list.o and A2.o should be in your directory now.
+
+To run it, do: 
+
+2.) ./A2 1223 Input
+
+To clean or remove object files and executory files from your directory do:
+
+3.) make -f A2Makefile clean
 ## How to Run
 
 To run the Bingo game program, follow these steps:
@@ -40,5 +54,14 @@ Feel free to modify the program or experiment with different Bingo card files to
 Note: Make sure to replace <seed> and <cardFile> with actual values when running the program.
 
 Enjoy playing the Bingo game!
+
+## Running Game
+
+![image](https://github.com/MKazi-ctrl/Bingo-Game/assets/84854139/47aa96da-967e-40f2-a977-d155193a320b)
+![image](https://github.com/MKazi-ctrl/Bingo-Game/assets/84854139/2bb826f0-7a3f-4a08-8402-6f5c4320bda1)
+![image](https://github.com/MKazi-ctrl/Bingo-Game/assets/84854139/0ccd5ca1-f38b-4d10-a8a1-5e05cf0e59ac)
+![image](https://github.com/MKazi-ctrl/Bingo-Game/assets/84854139/a3bc78a6-3d32-49b4-933f-a42a79cce354)
+
+
 
 
